@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Awesome Image Gallery</h1>
+    </header>
+
+    <div class="filter-buttons" style="text-align:center; margin: 20px 0;">
+        <button onclick="filterImages('all')">All</button>
+        <button onclick="filterImages('nature')">Nature</button>
+        <button onclick="filterImages('city')">City</button>
+        <button onclick="filterImages('art')">Art</button>
+    </div>
+
+    <main class="gallery-container">
+        <div class="gallery">
+            <img src="images/img1.jpg" alt="Nature Landscape 1" data-category="nature">
+            <img src="images/img2.webp" alt="Sunset behind mountain ranges" data-category="city">
+            <img src="images/img3.webp" alt="Abstract Art Piece" data-category="art">
+            <img src="images/img4.webp" alt="Nature Landscape 2" data-category="nature">
+            <img src="images/img5.jpg" alt="City Lights" data-category="city">
+            <img src="images/img6.jpg" alt="Modern Sculpture" data-category="art">
+        </div>
+    </main>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" src="" alt="">
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

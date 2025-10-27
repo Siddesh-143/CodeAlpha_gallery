@@ -1,0 +1,32 @@
+[
+  {
+    "filename": "img1.jpg",
+    "caption": "Img1",
+    "category": "other"
+  },
+  {
+    "filename": "img2.webp",
+    "caption": "Img2",
+    "category": "other"
+  },
+  {
+    "filename": "img3.webp",
+    "caption": "Img3",
+    "category": "other"
+  },
+  {
+    "filename": "img4.webp",
+    "caption": "Img4",
+    "category": "other"
+  },
+  {
+    "filename": "img5.jpg",
+    "caption": "Img5",
+    "category": "other"
+  },
+  {
+    "filename": "img6.jpg",
+    "caption": "Img6",
+    "category": "other"
+  }
+]
